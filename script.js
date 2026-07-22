@@ -1,3 +1,30 @@
+import {initializeApp} from
+ "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+import{
+getDatabase,
+ref,
+push,
+set,
+onValue
+}
+from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+const firebaseConfig = {
+	apiKey: "AIzaSyAzSNFk43TLPJgoH8V5R_FmyhdCMIIiufY",
+	authDomain: "database-1-70ac0.firebaseapp.com",
+  databaseURL: "https://database-1-70ac0-default-rtdb.asia-southeast1.firebasedatabase.app",
+ 	projectId: "database-1-70ac0",
+  storageBucket: "database-1-70ac0.firebasestorage.app",
+  messagingSenderId: "775211759499",
+ 	appId: "1:775211759499:web:6ebfbae3c44942634e618e",
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
 let students = JSON.parse(localStorage.getItem("students")) || [];
 
 function saveData(){
