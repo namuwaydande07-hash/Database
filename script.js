@@ -11,13 +11,13 @@ onValue
 from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyAc3-b3Tr306kYEXsqQp87MleTwhWgwS90",
-	authDomain: "database-4ed9b.firebaseapp.com",
-    databaseURL: "https://database-4ed9b-default-rtdb.asia-southeast1.firebasedatabase.app",
- 	projectId: "database-4ed9b",
-    storageBucket: "database-4ed9b.firebasestorage.app",
-    messagingSenderId: "225013505325",
- 	appId: "1:225013505325:web:d37e898ed06285f9cb47a4",
+	apiKey: "AIzaSyBzHYlVRTwEFVCx8FN52jfxEYAE-fMUIOU",
+	authDomain: "scholarship-management-web.firebaseapp.com",
+    databaseURL: "https://scholarship-management-web-default-rtdb.asia-southeast1.firebasedatabase.app",
+ 	projectId: "scholarship-management-web",
+    storageBucket: "scholarship-management-web.firebasestorage.app",
+    messagingSenderId: "161728013187",
+ 	appId: "1:161728013187:web:b9d3ab05607e9a4de20cb6",
 };
 
 const app = initializeApp(firebaseConfig);
